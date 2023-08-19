@@ -14,6 +14,9 @@ public class Main {
         String sinopse = "Filme com galâ dos anos 80";
         System.out.println("Sinopse do filme: "+ sinopse);
 
+        int classificacao = (int) (media /2);
+        System.out.println("A classificação do filme é: " +classificacao+ " "+"estrelas");
+
 
 
     }
