@@ -4,7 +4,7 @@ public class Condicional {
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
         String tipoPlano = "plus";
-
+ 1
         if (anoDeLancamento >= 2022){
             System.out.println("Lançamento que os clientes estão curtindo");
         } else {
