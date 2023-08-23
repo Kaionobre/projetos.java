@@ -1,9 +1,12 @@
+import br.com.alura.screenmath.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
         meuFilme.nome = "Clube da luta";
         meuFilme.anoDeLancamento =   2002;
         meuFilme.duracaoEmMinutos = 180;
+
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
